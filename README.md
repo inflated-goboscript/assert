@@ -14,3 +14,10 @@ This is a assertion library which is built for [goboscript](https://github.com/a
 Make sure you have inflator installed
 
 `inflate install https://github.com/FAReTek1/assert`
+
+add assert to your `inflator.toml` config:
+```toml
+[dependencies]
+# ...
+assert = "https://github.com/FAReTek1/assert"
+```

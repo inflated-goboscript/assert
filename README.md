@@ -24,9 +24,9 @@ assert = "https://github.com/FAReTek1/assert"
 
 ## Development
 
-use `inflate install -e`
+use `inflate install -e .`:
 
-1. clone the respository `git clone https://github.com/FAReTek1/assert`
+1. clone the respository: `git clone https://github.com/FAReTek1/assert`
 2. `cd assert`
 3. `inflate install -e .`
 4. `cd test`

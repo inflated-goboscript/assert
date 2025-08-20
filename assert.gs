@@ -1,3 +1,6 @@
+%if not _FARETEK_INCLUDE_ASSERT
+%define _FARETEK_INCLUDE_ASSERT
+
 # assert true
 proc assert condition, message = "", dont_break = false {
     if not $condition {
@@ -19,3 +22,5 @@ proc assert_eq result, expected, message = "", dont_break = false {
         if not $dont_break {breakpoint;}
     }
 }
+
+%endif

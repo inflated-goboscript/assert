@@ -2,6 +2,8 @@
 
 > assert certain conditions, if not true, give an error
 
+[![gstest](https://github.com/inflated-goboscript/assert/actions/workflows/gstest.yml/badge.svg)](https://github.com/inflated-goboscript/assert/actions/workflows/gstest.yml)
+
 This is a assertion library which is built for [goboscript](https://github.com/aspizu/goboscript).
  It is based on [the stdlib implementation](https://github.com/goboscript/std/), but it is designed to be used with [inflator](https://github.com/faretek1/inflator).
 
